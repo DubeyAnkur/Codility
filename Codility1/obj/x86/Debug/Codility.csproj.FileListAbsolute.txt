@@ -1,5 +1,0 @@
-C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\obj\x86\Debug\Codility.exe
-C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\obj\x86\Debug\Codility.pdb
-C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\bin\Debug\Codility.exe
-C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\bin\Debug\Codility.pdb
-C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\obj\x86\Debug\Codility.csprojResolveAssemblyReference.cache
