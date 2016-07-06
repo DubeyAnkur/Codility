@@ -70,6 +70,7 @@
     <Compile Include="2014\Phosphorus.cs" />
     <Compile Include="2014\Silicium.cs" />
     <Compile Include="2014\Sulphur.cs" />
+    <Compile Include="2016\Scandium.cs" />
     <Compile Include="CommonPrimeDivisors.cs" />
     <Compile Include="Concordance.cs" />
     <Compile Include="CountNonDivisible.cs" />
