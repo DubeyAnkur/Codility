@@ -7,6 +7,7 @@ using Codility._2011;
 using Codility._2012;
 using Codility._2013;
 using Codility._2014;
+using Codility._2016;
 
 namespace Codility
 {
@@ -14,9 +15,9 @@ namespace Codility
     {
         static void Main(string[] args)
         {
-            Sulphur s = new Sulphur();
+            Peaks s = new Peaks();
 
-            int[] A = new int[] { 4, 3, 1, 15 };
+            int[] A = new int[] { 1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 };
             int[] B = new int[] { 2, 2, 1, 1 };
             int[] C = new int[] { -1, 0, 1, -1 };
 
@@ -28,8 +29,8 @@ namespace Codility
             Print(A);
             Console.WriteLine("Start: ");
 
-            int X = s.solution(A, B, C);
-            Console.WriteLine("R: " + X);
+            int X = s.solution(A);
+            Console.WriteLine("Result: " + X);
             double sec = w.ElapsedMilliseconds;
             w.Stop();
             Console.WriteLine("Total Time 1 (in ms):" + sec);

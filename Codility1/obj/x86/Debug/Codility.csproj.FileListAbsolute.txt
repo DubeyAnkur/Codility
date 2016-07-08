@@ -5,6 +5,6 @@ C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\bin\Debu
 C:\Users\dankur\Documents\Visual Studio 2010\Projects\Codility\Codility\obj\x86\Debug\Codility.csprojResolveAssemblyReference.cache
 C:\Users\aisadmin\Documents\GitHub\Codility\Codility1\bin\Debug\Codility.exe
 C:\Users\aisadmin\Documents\GitHub\Codility\Codility1\bin\Debug\Codility.pdb
-C:\Users\aisadmin\Documents\GitHub\Codility\Codility1\obj\x86\Debug\Codility.csprojResolveAssemblyReference.cache
 C:\Users\aisadmin\Documents\GitHub\Codility\Codility1\obj\x86\Debug\Codility.exe
 C:\Users\aisadmin\Documents\GitHub\Codility\Codility1\obj\x86\Debug\Codility.pdb
+C:\Users\aisadmin\Documents\GitHub\Codility\Codility1\obj\x86\Debug\Codility.csprojResolveAssemblyReference.cache
