@@ -8,6 +8,7 @@ using Codility._2012;
 using Codility._2013;
 using Codility._2014;
 using Codility._2016;
+using Codility.Lessons;
 
 namespace Codility
 {
@@ -15,11 +16,19 @@ namespace Codility
     {
         static void Main(string[] args)
         {
-            Peaks s = new Peaks();
+            Nu s = new Nu();
 
-            int[] A = new int[] { 1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 };
-            int[] B = new int[] { 2, 2, 1, 1 };
+            int[] A = new int[] { -2, 4, 10, 13 };
+            int[] B = new int[] { 5, 6, 8, 12, 13 };
             int[] C = new int[] { -1, 0, 1, -1 };
+
+
+//Random(A);
+            //Random(B);
+            int[] P = { 2, 1, 0 };
+            int[] Q = { 3, 2, 3 };
+            int[] R = { 0, 0, 1 };
+            int[] S = { 4, 0, 3 };
 
             Stopwatch w = new Stopwatch();
             w.Start();
@@ -29,7 +38,7 @@ namespace Codility
             Print(A);
             Console.WriteLine("Start: ");
 
-            int X = s.solution(A);
+            int X = s.solution(A, B, P, Q, R, S);
             Console.WriteLine("Result: " + X);
             double sec = w.ElapsedMilliseconds;
             w.Stop();

@@ -118,5 +118,28 @@ namespace Codility
             }
             return TotalResult;
         }
+
+        public int New_solution(int[] A)
+        {
+            int result = 0;
+            int[] DP = new int[A.Length];
+            DP[0] = A[0];
+            for (int i = 0; i < A.Length; i++)
+            {
+                int max = int.MinValue;
+                int j = 1;
+                while (j <= 6 && i - j >= 0)
+                {
+                    int temp = DP[i - j] + A[i];
+                    if (temp > max)
+                        max = temp;
+                    j++;
+                }
+                if(i > 0)
+                    DP[i] = max;
+            }
+            result = DP[A.Length - 1];
+            return result;
+        }
     }
 }

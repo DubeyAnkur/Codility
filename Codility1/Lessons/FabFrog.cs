@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
 
 namespace Codility
 {
@@ -95,5 +96,64 @@ namespace Codility
             public int Depth;
             public string prev ="";
         }
+
+
+        //Java Solution below:
+        public int solution4(int[] A)
+        {
+            // write your code in Java SE 8
+            // the original version is at
+            // http://codesays.com/2014/solution-to-fib-frog-by-codility/
+            int N = A.Length;
+            int[] fib = new int[N + 4];
+            bool[] visit = new bool[N];
+            fib[0] = 0;
+            fib[1] = 1;
+            int m = 1;
+            do
+            {
+                m++;
+                fib[m] = fib[m - 1] + fib[m - 2];
+            } while (fib[m] <= N + 1);
+            ArrayList statusQueue = new ArrayList();
+            // use a queue to save the position and the moves of every possible jump
+            statusQueue.Add(new Status(-1, 0));
+            int nextTry = 0;
+            // use the breadth first search to get the result
+            while (true)
+            {
+                if (nextTry == statusQueue.Count)
+                    return -1;
+                Status currStatus = (Status)statusQueue[nextTry];
+                nextTry++;
+                int currPosition = currStatus.position;
+                int currMoves = currStatus.moves;
+                for (int i = m - 1; i > 0; i--)
+                {
+                    if (currPosition + fib[i] == N)
+                        return currMoves + 1;
+                    else if (currPosition + fib[i] > N ||
+                             A[currPosition + fib[i]] == 0 ||
+                             visit[currPosition + fib[i]] == true)
+                        continue;
+                    statusQueue.Add(new Status(currPosition + fib[i], currMoves + 1));
+                    visit[currPosition + fib[i]] = true;
+                }
+            }
+        }
+    }
+
+    class Status
+    {
+        public int position;
+        public int moves;
+
+        public Status(int p, int m)
+        {
+            position = p;
+            moves = m;
+        }
+
+
     }
 }
