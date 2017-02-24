@@ -9,6 +9,7 @@ using Codility._2013;
 using Codility._2014;
 using Codility._2016;
 using Codility.Lessons;
+using Codility.MS;
 
 namespace Codility
 {
@@ -16,33 +17,43 @@ namespace Codility
     {
         static void Main(string[] args)
         {
-            Nu s = new Nu();
 
-            int[] A = new int[] { -2, 4, 10, 13 };
-            int[] B = new int[] { 5, 6, 8, 12, 13 };
-            int[] C = new int[] { -1, 0, 1, -1 };
+            //BinarySearch bs = new BinarySearch();
+            //int[] A = bs.Init();
+            //int x = bs.Search(A, 4);
+
+            LevelOrderTravers t = new MS.LevelOrderTravers();
+            DLNode root = t.Init();
+            t.BFS(root);
 
 
-//Random(A);
-            //Random(B);
-            int[] P = { 2, 1, 0 };
-            int[] Q = { 3, 2, 3 };
-            int[] R = { 0, 0, 1 };
-            int[] S = { 4, 0, 3 };
+            //            Nu s = new Nu();
 
-            Stopwatch w = new Stopwatch();
-            w.Start();
+            //            int[] A = new int[] { -2, 4, 10, 13 };
+            //            int[] B = new int[] { 5, 6, 8, 12, 13 };
+            //            int[] C = new int[] { -1, 0, 1, -1 };
 
-            //Random(A);
-            //Array.Sort(A);
-            Print(A);
-            Console.WriteLine("Start: ");
 
-            int X = s.solution(A, B, P, Q, R, S);
-            Console.WriteLine("Result: " + X);
-            double sec = w.ElapsedMilliseconds;
-            w.Stop();
-            Console.WriteLine("Total Time 1 (in ms):" + sec);
+            ////Random(A);
+            //            //Random(B);
+            //            int[] P = { 2, 1, 0 };
+            //            int[] Q = { 3, 2, 3 };
+            //            int[] R = { 0, 0, 1 };
+            //            int[] S = { 4, 0, 3 };
+
+            //            Stopwatch w = new Stopwatch();
+            //            w.Start();
+
+            //            //Random(A);
+            //            //Array.Sort(A);
+            //            Print(A);
+            //            Console.WriteLine("Start: ");
+
+            //            int X = s.solution(A, B, P, Q, R, S);
+            //            Console.WriteLine("Result: " + X);
+            //            double sec = w.ElapsedMilliseconds;
+            //            w.Stop();
+            //            Console.WriteLine("Total Time 1 (in ms):" + sec);
             Console.Read();
         }
         static void Random(int[] P)

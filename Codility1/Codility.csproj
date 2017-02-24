@@ -92,6 +92,11 @@
     <Compile Include="Lessons\NailingPlanks.cs" />
     <Compile Include="Lessons\NumberSolitaire.cs" />
     <Compile Include="Lessons\Peaks.cs" />
+    <Compile Include="MS\BinarySearch.cs" />
+    <Compile Include="MS\LevelOrderTravers.cs" />
+    <Compile Include="MS\LRU.cs" />
+    <Compile Include="MS\Mad_Pointer.cs" />
+    <Compile Include="MS\TreeToDL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Solutions.cs" />
