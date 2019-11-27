@@ -46,15 +46,6 @@ namespace Codility.Lessons
                 result = Math.Max(result, num);
                 i++;
             }
-            //if (result == 21)
-            //{
-            //    string g = "";
-            //    for (i = 0; i < A.Length; i++)
-            //    {
-            //        g = g + "," + A[i];
-            //    }
-            //    Console.WriteLine(g);
-            //}
             return result;
         }
 
