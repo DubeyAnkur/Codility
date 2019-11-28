@@ -249,5 +249,11 @@ namespace Codility
 
             return cheapestRefillStrategyCost;
         }
+
+
+        public int solution3(int[] D, int[] P, int T)
+        {
+
+        }
     }
 }
