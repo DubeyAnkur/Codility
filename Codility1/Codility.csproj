@@ -72,6 +72,9 @@
     <Compile Include="2014\Sulphur.cs" />
     <Compile Include="2016\RectangleBuilderGreaterArea.cs" />
     <Compile Include="2016\Scandium.cs" />
+    <Compile Include="2020\RectanglesStrip.cs" />
+    <Compile Include="2021\Multivitamin.cs" />
+    <Compile Include="2021\TheDoge.cs" />
     <Compile Include="Lessons\CommonPrimeDivisors.cs" />
     <Compile Include="Concordance.cs" />
     <Compile Include="Lessons\CountNonDivisible.cs" />

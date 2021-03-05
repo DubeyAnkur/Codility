@@ -253,7 +253,10 @@ namespace Codility
 
         public int solution3(int[] D, int[] P, int T)
         {
+            int result = -1;
 
+
+            return result;
         }
     }
 }

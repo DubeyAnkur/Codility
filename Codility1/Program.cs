@@ -10,6 +10,8 @@ using Codility._2014;
 using Codility._2016;
 using Codility.Lessons;
 using Codility.MS;
+using Codility._2021;
+using Codility._2020;
 
 namespace Codility
 {
@@ -18,13 +20,26 @@ namespace Codility
         static void Main(string[] args)
         {
 
+            RectanglesStrip rs = new RectanglesStrip();
+            Console.WriteLine(rs.solution(new int[] { 2, 3, 2, 3, 5 }, new int[] { 3, 4, 2, 4, 2 }));
+
+
+            //Multivitamin mv = new Multivitamin();
+            //Console.WriteLine(mv.solution(new int[] { 10, 2, 1, 1 }, new int[] { 10, 3, 2, 2 }));
+
+            //TheDoge theDoge = new TheDoge();
+            //Console.WriteLine(theDoge.solution(new int[] { 1, 1, 2, 2, 1, 1, 2, 2 }, new int[] { 1, 1, 1, 1, 2, 2, 2, 2 }, new int[] { 0, 2, 4, 6 }, new int [] { 1, 3, 5, 7 }));
+
             //BinarySearch bs = new BinarySearch();
             //int[] A = bs.Init();
             //int x = bs.Search(A, 4);
+            //int[] A = new int[] { 1, 5, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2, 2, 2, 2, 2};
+            //Flags f = new Flags();
+            //Console.WriteLine(f.NSolution(A));
 
-            LevelOrderTravers t = new MS.LevelOrderTravers();
-            DLNode root = t.Init();
-            t.BFS(root);
+            //LevelOrderTravers t = new MS.LevelOrderTravers();
+            //DLNode root = t.Init();
+            //t.BFS(root);
 
 
             //            Nu s = new Nu();
