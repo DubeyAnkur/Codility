@@ -12,6 +12,8 @@ using Codility.Lessons;
 using Codility.MS;
 using Codility._2021;
 using Codility._2020;
+using Codility._2019;
+using Codility._2015;
 
 namespace Codility
 {
@@ -19,10 +21,38 @@ namespace Codility
     {
         static void Main(string[] args)
         {
+            FloorDepth fd = new FloorDepth();
+            Console.WriteLine(fd.solution(new int[] { 1, 4, 0, 6, 1, 6 }));
 
-            RectanglesStrip rs = new RectanglesStrip();
-            Console.WriteLine(rs.solution(new int[] { 2, 3, 2, 3, 5 }, new int[] { 3, 4, 2, 4, 2 }));
 
+            //LongestPassword lp = new LongestPassword();
+            //Console.WriteLine(lp.solution("test 5 a0A pass007 ?xy1"));
+
+            //LeaderSliceInc lsi = new LeaderSliceInc();
+            //Console.WriteLine(lsi.solution(1, 1, new int[] { 1 }));
+
+            //var myArray = new int[4, 4]
+            //{
+            //    {2,2,2,2},
+            //    {2,2,2,2},
+            //    {2,7,2,2},
+            //    {2,2,2,2}
+            //};
+
+            //MaxPathFromTheLeftTopCorner mp = new MaxPathFromTheLeftTopCorner();
+            //Console.WriteLine(mp.solution(myArray));
+
+            //ReplacingBooks rb = new ReplacingBooks();
+            //Console.WriteLine(rb.solution(new int[] { 1, 3, 3, 2 }, 0));
+
+            //TreeRange tr = new TreeRange();
+            //Console.WriteLine(tr.solution(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 13 }));
+
+            //CoverBuildings cb = new CoverBuildings();
+            //Console.WriteLine(cb.solution(new int[] { 1}));
+
+            //RectanglesStrip rs = new RectanglesStrip();
+            //Console.WriteLine(rs.solution(new int[] { 2, 3, 2, 3, 5 }, new int[] { 3, 4, 2, 4, 2 }));
 
             //Multivitamin mv = new Multivitamin();
             //Console.WriteLine(mv.solution(new int[] { 10, 2, 1, 1 }, new int[] { 10, 3, 2, 2 }));

@@ -12,4 +12,5 @@ E:\Sample\Codility\Codility1\obj\x86\Debug\Codility.exe
 E:\Sample\Codility\Codility1\obj\x86\Debug\Codility.pdb
 E:\Sample\Codility\Codility1\bin\Debug\Codility.exe
 E:\Sample\Codility\Codility1\bin\Debug\Codility.pdb
-E:\Sample\Codility\Codility1\obj\x86\Debug\Codility.csprojResolveAssemblyReference.cache
+E:\Sample\Codility\Codility1\obj\x86\Debug\Codility.csprojAssemblyReference.cache
+E:\Sample\Codility\Codility1\obj\x86\Debug\Codility.csproj.CoreCompileInputs.cache

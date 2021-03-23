@@ -70,8 +70,16 @@
     <Compile Include="2014\Phosphorus.cs" />
     <Compile Include="2014\Silicium.cs" />
     <Compile Include="2014\Sulphur.cs" />
+    <Compile Include="2015\Argon.cs" />
+    <Compile Include="2015\FloorDepth.cs" />
+    <Compile Include="2015\LongestPassword.cs" />
     <Compile Include="2016\RectangleBuilderGreaterArea.cs" />
     <Compile Include="2016\Scandium.cs" />
+    <Compile Include="2019\LeaderSliceInc.cs" />
+    <Compile Include="2019\MaxPathFromTheLeftTopCorner.cs" />
+    <Compile Include="2019\ReplacingBooks.cs" />
+    <Compile Include="2019\TreeRange.cs" />
+    <Compile Include="2020\CoverBuildings.cs" />
     <Compile Include="2020\RectanglesStrip.cs" />
     <Compile Include="2021\Multivitamin.cs" />
     <Compile Include="2021\TheDoge.cs" />
